@@ -1286,6 +1286,9 @@ footer .col-header {
 	color: #fff;
 	font-weight: 700
 }
+.Translation-language a{
+	color: #fff!important;
+}
 
 .locator {
 	min-height: 43.125rem;
@@ -1368,7 +1371,7 @@ footer .col-header {
 	text-align: center
 }
 
-.masthead .page-title {
+.masthead .page-title ,.masthead .masthead-header{
 	font-size: 3rem;
 	text-transform: uppercase;
 	line-height: 1;
@@ -2270,7 +2273,7 @@ code {
 	height: 15rem;
 }
 .product .app-info{
-	margin-top: 6.5rem;
+	margin-top: 5rem;
 
 }
 .product .qr-code{
@@ -2406,6 +2409,16 @@ code {
 	margin-bottom:10rem;
 }
 .join .job{
-	margin-left: 10.2rem;
+	padding-left: 10.2rem;
     margin-top: 3rem;
+}
+.job-position{
+	font-weight: bold;
+    color: #0058b5;
+}
+.job-r span{
+	font-weight: bold;
+}
+.job li{
+	line-height: 1.4rem
 }
