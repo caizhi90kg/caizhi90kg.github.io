@@ -1816,6 +1816,19 @@ footer .col-header {
 		transform: translateY(-5px)
 	}
 }
+
+/*common cssstyle*/
+.logo .top , .logo .bottom{
+	-webkit-filter: brightness(2);
+	filter: brightness(2);
+	-webkit-filter: saturate(3);
+	filter: saturate(3);    
+	height: 8rem;
+}
+.logo .top{
+	margin-top: 2rem;
+}
+
 .m-gnavi{ 
 	position: relative;
     text-align: center; 
